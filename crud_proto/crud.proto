@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package crud;
+
+option go_package = "./crud_proto";
+
+message User {
+    string name = 1;
+    int64  phone_number =2;
+    string address = 3;
+    string id =4;
+}
+
+
+service UserService {
+    
+}
